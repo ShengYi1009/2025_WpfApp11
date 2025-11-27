@@ -1,13 +1,4 @@
-﻿using System.Text;
-using System.Windows;
-using System.Windows.Controls;
-using System.Windows.Data;
-using System.Windows.Documents;
-using System.Windows.Input;
-using System.Windows.Media;
-using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
-using System.Windows.Shapes;
+﻿using System.Windows;
 
 namespace WpfApp1
 {
@@ -16,9 +7,22 @@ namespace WpfApp1
     /// </summary>
     public partial class MainWindow : Window
     {
+        List<Student> students = new List<Student>();
+        List<Course> courses = new List<Course>();
+        List<Teacher> teachers = new List<Teacher>();
         public MainWindow()
         {
             InitializeComponent();
+            InitializeData();
+        }
+
+        private void InitializeData()
+        {
+            //新增學生資料
+            students.Add(new Student() { StudentId = "S001", StudentName = "小明" });
+            students.Add(new Student() { StudentId = "S002", StudentName = "小花" });
+            students.Add(new Student() { StudentId = "S003", StudentName = "小白" });
+            StudentComboBox.ItemsSource = students;
         }
     }
 }
