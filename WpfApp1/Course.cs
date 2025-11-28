@@ -10,8 +10,9 @@ namespace WpfApp1
     {
         public string CourseName { get; set; }
         public string Type { get; set; }
-        public string Point { get; set; }
+        public int Point { get; set; }
         public string OpeningClass { get; set; }
+
         public Teacher Tutor { get; set; }
     }
 }
