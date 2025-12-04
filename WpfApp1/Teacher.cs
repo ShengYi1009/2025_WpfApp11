@@ -1,4 +1,6 @@
-﻿using System.Collections.ObjectModel;
+﻿using System;
+using System.Collections.ObjectModel;
+using System.Text.Json.Serialization;
 
 namespace WpfApp1
 {
@@ -6,6 +8,7 @@ namespace WpfApp1
     {
         public String TeacherName { get; set; }
 
+        [JsonIgnore]
         public ObservableCollection<Course> TeachingCourses { get; set; }
 
         public Teacher(String teacherName)

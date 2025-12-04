@@ -1,0 +1,32 @@
+[
+  {
+    "SelectedStudent": {
+      "StudentId": "4B3G456",
+      "StudentName": "K割"
+    },
+    "SelectedCourse": {
+      "CourseName": "生態倫理學",
+      "Type": "選修",
+      "Point": 3,
+      "OpeningClass": "四技資工2B",
+      "Tutor": {
+        "TeacherName": "美感玲"
+      }
+    }
+  },
+  {
+    "SelectedStudent": {
+      "StudentId": "4B3G666",
+      "StudentName": "伲趣"
+    },
+    "SelectedCourse": {
+      "CourseName": "生命倫理學",
+      "Type": "選修",
+      "Point": 3,
+      "OpeningClass": "四技資工2A",
+      "Tutor": {
+        "TeacherName": "美感玲"
+      }
+    }
+  }
+]
