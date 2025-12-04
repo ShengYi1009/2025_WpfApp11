@@ -1,6 +1,6 @@
 ﻿namespace WpfApp1
 {
-    class Student
+    internal class Student
     {
         public string StudentId { get; set; }
         public string StudentName { get; set; }

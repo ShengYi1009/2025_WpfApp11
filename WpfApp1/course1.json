@@ -1,0 +1,66 @@
+[
+  {
+    "SelectedStudent": {
+      "StudentId": "4B3G456",
+      "StudentName": "K割"
+    },
+    "SelectedCourse": {
+      "CourseName": "生態倫理學",
+      "Type": "選修",
+      "Point": 3,
+      "OpeningClass": "四技資工2B",
+      "Tutor": {
+        "TeacherName": "美感玲",
+        "TeachingCourses": [
+          null,
+          {
+            "CourseName": "生命倫理學",
+            "Type": "選修",
+            "Point": 3,
+            "OpeningClass": "四技資工2A",
+            "Tutor": null
+          },
+          {
+            "CourseName": "軟體工程",
+            "Type": "必修",
+            "Point": 3,
+            "OpeningClass": "四技資工二丙",
+            "Tutor": null
+          }
+        ]
+      }
+    }
+  },
+  {
+    "SelectedStudent": {
+      "StudentId": "4B3G666",
+      "StudentName": "伲趣"
+    },
+    "SelectedCourse": {
+      "CourseName": "視窗程式設計",
+      "Type": "選修",
+      "Point": 3,
+      "OpeningClass": "四技資工2B",
+      "Tutor": {
+        "TeacherName": "林木木",
+        "TeachingCourses": [
+          {
+            "CourseName": "作業系統",
+            "Type": "必修",
+            "Point": 3,
+            "OpeningClass": "四技資工2A",
+            "Tutor": null
+          },
+          null,
+          {
+            "CourseName": "計算機概論",
+            "Type": "必修",
+            "Point": 3,
+            "OpeningClass": "四技資工一甲",
+            "Tutor": null
+          }
+        ]
+      }
+    }
+  }
+]

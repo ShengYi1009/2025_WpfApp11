@@ -2,15 +2,17 @@
 
 namespace WpfApp1
 {
-    class Teacher
+    internal class Teacher
     {
-        public string TeacherName { get; set; }
+        public String TeacherName { get; set; }
+
         public ObservableCollection<Course> TeachingCourses { get; set; }
 
-        public Teacher(string teacherName)
+        public Teacher(String teacherName)
         {
             TeacherName = teacherName;
             TeachingCourses = new ObservableCollection<Course>();
         }
+
     }
 }

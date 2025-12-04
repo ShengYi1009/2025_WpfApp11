@@ -6,13 +6,12 @@ using System.Threading.Tasks;
 
 namespace WpfApp1
 {
-    class Course
+    internal class Course
     {
-        public string CourseName { get; set; }
-        public string Type { get; set; }
+        public String CourseName { get; set; }
+        public String Type { get; set; }
         public int Point { get; set; }
-        public string OpeningClass { get; set; }
-
+        public String OpeningClass { get; set; }
         public Teacher Tutor { get; set; }
     }
 }
